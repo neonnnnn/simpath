@@ -173,6 +173,7 @@ class ZDD(object):
         print('\nThe number of s-t path:{0}'.format(self.one.counter))
         return self.one.counter
 
+
 if __name__ == '__main__':
     N = int(sys.argv[1])
     grid_graph = GridGraph(N)
